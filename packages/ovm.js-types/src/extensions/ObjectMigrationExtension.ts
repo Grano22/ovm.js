@@ -1,4 +1,4 @@
-import {NativeSchema, NativeValueSpec} from "../NativeSchema.ts";
+import {NativeSchema, NativeValueSpec} from "../NativeSchema";
 
 interface ObjectMigratorExtension<ForeignSpecType> {
     readonly NAME: string;

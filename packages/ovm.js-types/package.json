@@ -1,15 +1,13 @@
 {
-  "name": "@types/ovm.js",
+  "name": "@ovm.js/types",
   "version": "1.0.0",
   "description": "Types for ovm.js",
   "type": "module",
-  "files": [
-     "dist"
-  ],
-  "types": "dist/ovm.d.ts",
+  "files": ["index.d.ts", "src"],
+  "types": "index.d.ts",
   "scripts": {
-    "build": "tsc && vite build",
-    "publish": "npm publish"
+    "build": "exit && tsc && vite build",
+    "publish": "npm publish --access public"
   },
   "devDependencies": {
     "typescript": "^5.2.2",

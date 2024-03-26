@@ -1,3 +1,4 @@
 src
 tests
 vite.config.js
+./src/vite-env.d.ts

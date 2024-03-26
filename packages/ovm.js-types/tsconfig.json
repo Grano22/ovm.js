@@ -1,8 +1,17 @@
 {
-  "extends": "../../tsconfig.base.json",
   "compilerOptions": {
     "rootDir": "src",
-    "outDir": "dist"
+    "target": "ESNext",
+    "module": "ESNext",
+    "lib": ["ES2023", "DOM", "DOM.Iterable", "ES6", "ES2020.BigInt"],
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "types": [],
+    "noEmit": true,
+    "forceConsistentCasingInFileNames": true
   },
-  "include": ["src"]
+  "files": ["index.d.ts"]
 }

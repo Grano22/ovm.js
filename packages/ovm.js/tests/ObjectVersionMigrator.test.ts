@@ -1,6 +1,6 @@
 import {describe, expect, test} from "vitest";
 import ObjectVersionMigrator from "../src/ObjectVersionMigrator";
-import {NativeSchema} from "@types/ovm.js";
+import {NativeSchema} from "@ovm.js/types";
 import NotDtoObjectGiven from "../src/exception/NotDtoObjectGiven";
 
 describe('Test object migration functionality', () => {

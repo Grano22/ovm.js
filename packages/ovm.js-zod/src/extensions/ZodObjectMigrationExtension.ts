@@ -1,4 +1,4 @@
-import {NativeSchema, NativeValueSpec, ObjectMigratorExtension } from "ovm.js";
+import {NativeSchema, NativeValueSpec, ObjectMigratorExtension } from "@ovm.js/types";
 import {ZodObject, ZodType} from "zod";
 
 export default class ZodObjectMigrationExtension implements ObjectMigratorExtension<ZodType> {

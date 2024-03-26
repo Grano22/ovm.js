@@ -7,19 +7,21 @@ import dts from "vite-plugin-dts";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig({
-    plugins: [
-        dts({
-            include: ['src'],
-            rollupTypes: true,
-            insertTypesEntry: true,
-            declarationOnly: true
-        })
-    ],
+    // plugins: [
+    //     dts({
+    //         include: ['src'],
+    //         rollupTypes: true,
+    //         insertTypesEntry: true,
+    //         declarationOnly: true,
+    //         entryRoot: resolve(__dirname, 'src')
+    //     })
+    // ],
     build: {
+        outDir: 'dist',
         lib: {
-            fileName: 'ovm.js',
-            name: 'ovm.js',
-            entry: resolve(__dirname, 'src/main.ts'),
+            fileName: 'index',
+            name: 'index.js',
+            entry: resolve(__dirname, 'src/index.ts'),
             formats: ['es']
         }
     }

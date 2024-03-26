@@ -37,7 +37,7 @@ export default defineConfig({
         minify: true,
         cssMinify: true,
         lib: {
-            fileName: 'ovm.js',
+            fileName: 'ovm',
             name: 'ovm.js',
             entry: resolve(__dirname, 'src/main.ts'),
             formats: ['es']

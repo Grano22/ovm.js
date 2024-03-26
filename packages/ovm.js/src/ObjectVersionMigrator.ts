@@ -1,4 +1,4 @@
-import {NativeSchema, NativeValueSpec, ObjectMigratorExtension} from "ovm.js";
+import {NativeSchema, NativeValueSpec, ObjectMigratorExtension} from "@ovm.js/types";
 import NotDtoObjectGiven from "./exception/NotDtoObjectGiven.ts";
 
 interface ObjectVersionMigratorConfig {
