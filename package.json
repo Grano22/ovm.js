@@ -1,0 +1,16 @@
+{
+  "name": "@ovm.js/monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "npm run --workspace packages/** build",
+    "publish": ""
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "engines": {
+    "node": "^16.10.0 || ^18.12.0 || >=20.0.0"
+  }
+}

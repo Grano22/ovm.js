@@ -1,0 +1,24 @@
+{
+  "name": "ovm.js",
+  "version": "1.0.0",
+  "description": "Object version mappers is a tool to migrate object according schema",
+  "type": "module",
+  "main": "dist/ovm.js",
+  "scripts": {
+    "build": "tsc && vite build",
+    "test": "vitest",
+    "publish": "npm publish"
+  },
+  "dependencies": {
+    "@types/ovm.js": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vite-plugin-dts": "^3.7.3",
+    "vitest": "^1.4.0"
+  },
+  "engines": {
+    "node": "^16.10.0 || ^18.12.0 || >=20.0.0"
+  }
+}
